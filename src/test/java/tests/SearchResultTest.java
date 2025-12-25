@@ -67,7 +67,7 @@ public class SearchResultTest extends BaseTest {
                 "Guests count incorrect");
     }
 
-    @Test(dependsOnMethods = "verifyGuestsCount", description = "Verify all listings have enough beds")
+    @Test(dependsOnMethods = "verifyGuestsCount", description = "Verify results in first page have enough beds")
     public void verifyBedsCount() {
 
         Assert.assertTrue(

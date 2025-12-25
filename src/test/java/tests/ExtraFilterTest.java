@@ -39,7 +39,7 @@ public class ExtraFilterTest extends BaseTest {
     // Verify results and details match extra filters
     // ---------------------------------------------------
 
-    @Test(description = "VERIFY all results have at least the number of selected bedrooms.")
+    @Test(description = "VERIFY results in first page have at least the number of selected bedrooms.")
     public void verifyTheSelectedNumberOfBedrooms() {
 
         Assert.assertTrue(
